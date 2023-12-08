@@ -1,4 +1,5 @@
 
+import Areachart from '../../components/Areachart/Areachart'
 import BarChat from '../../components/BaechartBox/BarChat'
 import ChartBoc from '../../components/chartbox/ChartBoc'
 import Piechart from '../../components/piechart/Piechart'
@@ -16,7 +17,7 @@ const Home=()=> {
       <div className="box box4"><Piechart/></div>
       <div className="box box5"><ChartBoc {...chartBoxConversion}/></div>
       <div className="box box6"><ChartBoc {...chartBoxRevenue}/></div>
-      <div className="box box7">7</div>
+      <div className="box box7"><Areachart/></div>
       <div className="box box8"><BarChat {...barChartBoxRevenue}/></div>
       <div className="box box9"><BarChat {...barChartBoxVisit}/></div>
     </div>
